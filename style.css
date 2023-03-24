@@ -1,0 +1,53 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form-group {
+    margin: 10px;
+}
+
+.heading {
+    width: 70%;
+    align-items: center;
+    align-content: center;
+    margin-left: 460px;
+    background-color: black;
+    color: #ffffff;
+    height: 40px;
+}
+
+.form-group-showdata {
+    padding-top: 180px;
+}
+
+.screen-body-item {
+    margin-top: -400px;
+}
+.form-group {
+    margin-left: 150px;
+}
+
+#btn {
+    margin-left: 200px;
+    background-color: black;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.screen-body-item label {
+    font-size: 20px;
+}
+
+.form-group-showdata h1 {
+    background-color: black;
+    width: 60%;
+    color: #ffffff;
+    align-items: center;
+    text-align: center;
+}
+
+.form-group-showdata h3 {
+    width: 60%;
+    height: 80px;
+}

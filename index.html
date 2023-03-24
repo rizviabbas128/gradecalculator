@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">GRADING SYSTEM ASSIGNMENT</h1>
+        <div class="form-group-showdata">
+            <div>
+                <h1>Total</h1>
+                <h3 id="showdata"></h3>
+            </div>
+            <div>
+                <h1>Average</h1>
+                <h3 id="showpercentage"></h3>
+            </div>
+            <div>
+                <h1>Grade</h1>
+                <h3 id="showgrade"></h3>
+            </div>
+        </div>
+        <div class="screen-body-item">
+            <div class="form-group">
+                <label>English</label>
+                <input type="text" min="0" max="100" placeholder="Enter English Marks..." class="form-control" id="english"/>
+            </div>
+            <div class="form-group">
+                <label>Maths</label>
+                <input type="text" min="0" max="100" placeholder="Enter Maths Marks..." class="form-control" id="maths" />
+            </div>
+            <div class="form-group">
+                <label>Physics</label>
+                <input type="text" min="0" max="100" placeholder="Enter Physics Marks..." class="form-control" id="physics"/>
+            </div>
+            <div class="form-group">
+                <label>Chemistry</label>
+                <input type="text" min="0" max="100" placeholder="Enter Chemistry Marks..." class="form-control" id="chemistry"/>
+            </div>
+            <div class="form-group">
+                <label>Computer</label>
+                <input type="text" min="0" max="100" placeholder="Enter Computer Marks..." class="form-control" id="computer"/>
+            </div>
+            <div>
+                <input type="button" id="btn" value="Calculate Grade" class="form-button" onClick='calculate()' />
+            </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
